@@ -1,0 +1,74 @@
+from sqlalchemy import Column, Integer, String, ForeignKey, DateTime
+from sqlalchemy.orm import relationship
+from .database import Base
+
+class User(Base):
+    __tablename__ = "usuario"
+
+    id = Column(Integer, primary_key=True, index=True)
+    username = Column(String(100), unique=True, index=True, nullable=False)
+    email = Column(String(100), unique=True, index=True, nullable=False)
+    password = Column(String(255), nullable=False)
+    image_url = Column(String, nullable=True)
+
+class Address(Base):
+    __tablename__ = "endereco"
+
+    id = Column(Integer, primary_key=True, index=True)
+    pais = Column(String(45), index=True, nullable=False)
+    estado = Column(String(80), index=True, nullable=False)
+    cidade = Column(String(80), index=True, nullable=False)
+    rua = Column(String(100), nullable=False)
+    numero = Column(Integer, nullable=True)
+    longitude = Column(String(50), nullable=False)
+    latitude = Column(String(50), nullable=False)
+
+    veiculos = relationship("Car", back_populates="endereco")
+
+class Car(Base):
+    __tablename__ = "veiculo"
+
+    id = Column(Integer, primary_key=True, index=True)
+    cor = Column(String(30), index=True, nullable=True)
+    placa_numero = Column(String(7), index=True, nullable=True)
+    origem = Column(String(45), index=True, nullable=False)
+
+    endereco_id = Column(Integer, ForeignKey("endereco.id"), nullable=True)
+
+    endereco = relationship("Address", back_populates="veiculos")
+
+class TypeOfInfraction(Base):
+    __tablename__ = "tipo_infracao"
+
+    id = Column(Integer, primary_key=True, index=True)
+    gravidade = Column(String(100), index=True, nullable=False)
+    pontos = Column(Integer, nullable=False)
+    descricao = Column(String(255), nullable=False)
+
+class Infraction(Base):
+    __tablename__ = "infracao"
+    id = Column(Integer, primary_key=True)
+    data = Column(DateTime, nullable=True)
+    imagem = Column(String, nullable=True)
+
+    veiculo_id = Column(Integer, ForeignKey("veiculo.id"))
+    veiculo = relationship("Car")  # agora veiculo é o objeto completo
+
+    endereco_id = Column(Integer, ForeignKey("endereco.id"), nullable=True)
+    endereco = relationship("Address")  # objeto completo
+
+    tipo_infracao_id = Column(Integer, ForeignKey("tipo_infracao.id"))
+    tipo_infracao = relationship("TypeOfInfraction")  # objeto completo
+
+    usuario_id = Column(Integer, ForeignKey("usuario.id"))
+    usuario = relationship("User")  # objeto completo
+
+class Notification(Base):
+    __tablename__ = "notificacao"
+
+    id = Column(Integer, primary_key=True, index=True)
+    mensagem = Column(String(500), nullable=False)
+    data = Column(DateTime, nullable=False)
+
+    usuario_id = Column(Integer, ForeignKey("usuario.id"))
+    usuario = relationship("User")
