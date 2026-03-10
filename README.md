@@ -14,7 +14,7 @@
 Sistema Full-Cycle e Autônomo de Fiscalização Urbana utilizando Visão Computacional e Inteligência Artificial.
 
 <p align="center">
-<img src="https://via.placeholder.com/800x400.png?text=Coloque+aqui+um+GIF+do+sistema+rodando" alt="Demonstração do Sistema" width="100%">
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/VideoDemo1minCropgif.gif" alt="Demonstração do Sistema" width="60%">
 </p>
 
 ## 📋 Sobre o Projeto
@@ -37,29 +37,30 @@ Dashboard e Histórico: Interface web interativa com controle de acesso, histór
 <details>
 <summary><b>Clique para ver as telas da aplicação</b></summary>
 
-1. Dashboard Principal
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+da+Tela+Inicial+(5.4.1" alt=" Dashboard Principal" width="100%">
+### 1. Dashboard Principal
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/TelaInicial.png" alt="Dashboard Principal" width="75%">
 
-2. Funcionalidades & Métricas
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+da+Tela+Inicial+(5.4.1" alt="Funcionalidades e Métricas" width="100%">
+### 2. Arquitetura, Funcionalidades & Métricas
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/Tela%20inicial%20pos1.webp" alt="Arquitetura" width="75%">
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/Tela%20Inicial%20pos2.webp" alt="Funcionalidades e Métricas" width="75%">
 
-3. Tutorial para validação
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+da+Tela+Inicial+(5.4.1" alt="Tutorial" width="100%">
+### 3. Tutorial para validação
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/Tela%20validar%20tutorial.webp" alt="Tutorial" width="75%">
 
-4. Processamento & Validação da IA
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+da+Infração+Processada+(5.7.3" alt="Validação IA" width="100%">
+### 4. Processamento & Validação da IA
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/Tela%20validando%202.webp" alt="Validação IA" width="75%">
 
-5. Consulta por placa
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+do+Modal+da+Infração+(5.6" alt="Consulta" width="100%">
+### 5. Consulta por placa
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/tela%20consulta%203.webp" width="75%">
 
-6. Modal de infração
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+do+Modal+da+Infração+(5.6" alt="Modal" width="100%">
+### 6. Modal de infração
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/Tela%20modal%20mapa.webp" alt="Modal" width="75%">
 
-7. Infrações Enviadas 
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+do+Modal+da+Infração+(5.6" alt="Monitoramento" width="100%">
+### 7. Infrações Enviadas 
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/tela%20infra%20enviadas.webp" alt="Monitoramento" width="75%">
 
-8. Geolocalização (Mapa)
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+do+Mapa+(5.8.1" alt="Geolocalização" width="100%">
+### 8. Geolocalização (Mapa)
+<img src="https://github.com/Ryuko46/Tcc-IllegalParkingDetection-FullStack/blob/main/files/Tela%20mapa%204.webp" alt="Geolocalização" width="75%">
 
 </details>
 
