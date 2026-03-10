@@ -37,16 +37,28 @@ Dashboard e Histórico: Interface web interativa com controle de acesso, histór
 <details>
 <summary><b>Clique para ver as telas da aplicação</b></summary>
 
-1. Dashboard Principal & Métricas
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+da+Tela+Inicial+(5.4.1" alt="Dashboard" width="100%">
+1. Dashboard Principal
+<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+da+Tela+Inicial+(5.4.1" alt=" Dashboard Principal" width="100%">
 
-2. Processamento e Validação da IA
+2. Funcionalidades & Métricas
+<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+da+Tela+Inicial+(5.4.1" alt="Funcionalidades e Métricas" width="100%">
+
+3. Tutorial para validação
+<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+da+Tela+Inicial+(5.4.1" alt="Tutorial" width="100%">
+
+4. Processamento & Validação da IA
 <img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+da+Infração+Processada+(5.7.3" alt="Validação IA" width="100%">
 
-3. Histórico e Modal de Detalhes
-<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+do+Modal+da+Infração+(5.6" alt="Detalhes" width="100%">
+5. Consulta por placa
+<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+do+Modal+da+Infração+(5.6" alt="Consulta" width="100%">
 
-4. Geolocalização (Mapa)
+6. Modal de infração
+<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+do+Modal+da+Infração+(5.6" alt="Modal" width="100%">
+
+7. Infrações Enviadas 
+<img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+do+Modal+da+Infração+(5.6" alt="Monitoramento" width="100%">
+
+8. Geolocalização (Mapa)
 <img src="https://via.placeholder.com/800x400.png?text=Cole+aqui+a+print+do+Mapa+(5.8.1" alt="Geolocalização" width="100%">
 
 </details>
